@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "30 * * * *" # Updates every 30 minutes - Guide on how to change here: https://www.freecodecamp.org/news/schedule-a-job-in-node-with-nodecron/
+    - cron: "1 6,13,20 * * *" # How often the feed is updated - Guide on how to change here: https://www.freecodecamp.org/news/schedule-a-job-in-node-with-nodecron/
   workflow_dispatch:
 
 jobs:
